@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+
+[Desktop Entry]
+Name=My script
+Comment=Testing my kiosk script
+Exec=~/Desktop/Kiosk_Run.sh
+Icon=
+Terminal=true
+Type=Application
+Categories=Application;

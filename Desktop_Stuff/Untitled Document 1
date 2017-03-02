@@ -1,0 +1,102 @@
+mkdir ~/NetworkingScript/ StuffWeNeedToRun
+mkdir ~/NetworkingScript/ StuffWeNeedToHave
+
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToHave
+cp ~/PlaceWeStoredStuff/server.py ~/NetworkingScript/StuffWeNeedToHave
+cp ~/PlaceWeStoredStuff/threaded_server.py ~/NetworkingScript/StuffWeNeedToHave
+cp ~/PlaceWeStoredStuff/smallfile.jpg ~/NetworkingScript/StuffWeNeedToHave
+cp ~/PlaceWeStoredStuff/largefile.jpg ~/NetworkingScript/StuffWeNeedToHave
+
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer1
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer2
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer3
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer4
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer5
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer6
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer7
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer8
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer9
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer10
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer11
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer12
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer13
+mkdir ~/NetworkingScript/StuffWeNeedToRun/TrackingServer
+
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer1/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer1/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer1/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer1/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer2/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer2/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer2/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer2/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer3/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer3/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer3/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer3/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer4/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer4/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer4/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer4/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer5/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer5/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer5/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer5/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer6/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer6/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer6/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer6/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer7/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer7/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer7/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer7/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer8/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer8/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer8/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer8/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer9/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer9/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer9/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer9/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer10/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer10/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer10/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer10/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer11/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer11/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer11/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer11/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer12/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer12/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer12/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer12/
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer13/Files
+mkdir ~/NetworkingScript/StuffWeNeedToRun/Peer13/Trackers
+cp ~/PlaceWeStoredStuff/client.py ~/NetworkingScript/StuffWeNeedToRun/Peer13/
+cp ~/PlaceWeStoredStuff/client_config.cfg ~/NetworkingScript/StuffWeNeedToRun/Peer13/
+
+
+python ~/NetworkingScript/server.py <port_number>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_1_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_2_(itself)>
+
+
+
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_3_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_4_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_5_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_6_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_7_(itself)>
+
+
+
+
+
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_8_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_9_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_10_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_11_(itself)>
+python ~/NetworkingScript/client.py <ip_of_server> <port_number of server> <port_number_of_client_12_(itself)>
+
+
+

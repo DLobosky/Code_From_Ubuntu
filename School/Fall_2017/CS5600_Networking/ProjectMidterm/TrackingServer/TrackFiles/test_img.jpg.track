@@ -1,0 +1,15 @@
+{
+    "peers": [
+        {
+            "ip": "131.151.243.75",
+            "end": 1032251,
+            "port": 8140,
+            "start": 0,
+            "time": 1481014656.416755
+        }
+    ],
+    "fileName": "test_img.jpg",
+    "fileSize": 1032251,
+    "description": 512,
+    "md5": "\"\\xf5\\xa7\\xd6\\x85'\\xe1\\xa7S`ri\\x86\\x84\\x97\\x9d\\xdc\""
+}
